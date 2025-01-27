@@ -1,0 +1,10 @@
+# Ignorar carpetas innecesarias
+.DS_Store
+node_modules/
+.vscode/
+*.log
+
+# Archivos generados automáticamente
+*.sqlite*
+*.pb
+*.tmp
