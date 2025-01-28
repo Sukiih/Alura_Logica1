@@ -15,16 +15,14 @@ while (count >= 0) {
 }
 
 // Crea un programa de cuenta regresiva. Pide un número y cuenta desde 0 
-
+// hasta ese número utilizando un bucle 'while' en la consola del navegador.
 let num = parseInt(prompt("Introduce un número: "));
 
-while (num >=0){
-    console.log(num);
-num--;
+while(num <= 0){
+    alert("Debes ingresar un número mayor que 0")
+    num = parseInt(prompt("Introduce un número: "));
 }
-
-// hasta ese número utilizando un bucle 'while' en la consola del navegador.
-
-// Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 
-
-// hasta ese número utilizando un bucle 'while' en la consola del navegador.
+while(num >= 0){
+    console.log(num);
+    num--;
+}
